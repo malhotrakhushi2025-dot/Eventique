@@ -169,6 +169,7 @@ while True:
                 attendee.attendee_name = input("Enter New Attendee Name: ")
                 attendee.attendee_email = input("Enter New Attendee Email: ")
                 attendee.phone_number = input("Enter New Phone Number: ")
+                save_attendees(attendees)
 
                 print("\nAttendee updated successfully!")
 
@@ -181,6 +182,7 @@ while True:
         for attendee in attendees:
             if attendee.attendee_id == search_id:
                 attendees.remove(attendee)
+                save_attendees(attendees)
 
                 print("\nAttendee deleted successfully!")
                 break
@@ -225,6 +227,7 @@ while True:
             if organizer.organizer_id == search_id:
                 organizer.organizer_name = input("Enter New Organizer Name: ")
                 organizer.role = input("Enter New Organizer Role: ")
+                save_organizers(organizers)
 
                 print("\nOrganizer updated successfully!")
 
@@ -237,6 +240,7 @@ while True:
         for organizer in organizers:
             if organizer.organizer_id == search_id:
                 organizers.remove(organizer)
+                save_organizers(organizers)
 
                 print("\nOrganizer deleted successfully!")
                 break
@@ -284,6 +288,7 @@ while True:
                 registration.attendee_id = input("Enter New Attendee ID: ")
                 registration.event_id = input("Enter New Event ID: ")
                 registration.seats_reserved = int(input("Enter New Seats Reserved: "))
+                save_registrations(registrations)
 
                 print("\nRegistration updated successfully!")
 
@@ -296,6 +301,7 @@ while True:
         for registration in registrations:
             if registration.registration_id == search_id:
                 registrations.remove(registration)
+                save_registrations(registrations)
 
                 print("\nRegistration deleted successfully!")
                 break
