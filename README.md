@@ -2,9 +2,9 @@
 
 ## Project Description
 
-Eventique is a menu-driven Event Management System developed using Python. The program was created as part of the B100 Introduction to Computer Programming with Python module.
+Eventique is a menu-driven Event Management System developed using Python as part of the B100 Introduction to Computer Programming with Python module.
 
-The purpose of the system is to help users manage events, attendees, organisers, and registrations. Users can add, view, edit, and delete records through a simple menu-driven interface. The program also uses CSV files to save and load data, allowing information to remain available even after the application is closed.
+The system allows users to manage events, attendees, organisers, and registrations through a simple console-based interface. Users can add, view, edit, and delete records, while all information is saved in CSV files so that the data remains available when the program is restarted.
 
 ---
 
@@ -21,40 +21,43 @@ The purpose of the system is to help users manage events, attendees, organisers,
 
 ---
 
-## Project Files
+## Project Structure
 
-* `main.py` – Main program containing the menu-driven interface.
-* `event.py` – Event class.
-* `attendee.py` – Attendee class.
-* `organizer.py` – Organizer class.
-* `registration.py` – Registration class.
+* `main.py` – Controls the menu-driven program and user interaction.
+* `event.py` – Contains the Event class.
+* `attendee.py` – Contains the Attendee class.
+* `organizer.py` – Contains the Organizer class.
+* `registration.py` – Contains the Registration class.
 * `file_manager.py` – Handles saving and loading data using CSV files.
-* `events.csv` – Stores event records.
-* `attendees.csv` – Stores attendee records.
-* `organizers.csv` – Stores organiser records.
-* `registrations.csv` – Stores registration records.
+
+### CSV Files
+
+* `events.csv`
+* `attendees.csv`
+* `organizers.csv`
+* `registrations.csv`
 
 ---
 
-## Concepts Used
+## Python Concepts Used
 
 * Classes and Objects
 * Methods
 * Modules
 * Loops
 * Conditional Statements (`if`, `elif`, `else`)
-* File Handling (CSV)
-* Exception Handling
 * Object-Oriented Programming (OOP)
+* File Handling (CSV)
+* Exception Handling (`try` and `except`)
 
 ---
- 
+
+
 
 ## Author
 
-Khushi 
+Khushi Malhotra
 
 B100 Introduction to Computer Programming with Python
 
 Eventique – Event Management System
-
