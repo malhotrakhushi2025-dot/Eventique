@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Eventique is a menu-driven Event Management System developed using Python as part of the B100 Introduction to Computer Programming with Python module.
+Eventique is a menu-driven Event Management System developed using Python. The program was created as part of the B100 Introduction to Computer Programming with Python module.
 
 The system allows users to manage events, attendees, organisers, and registrations through a simple console-based interface. Users can add, view, edit, and delete records, while all information is saved in CSV files so that the data remains available when the program is restarted.
 
